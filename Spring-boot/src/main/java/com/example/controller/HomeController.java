@@ -9,5 +9,8 @@ public class HomeController {
 	public String homePage() {
 		return "home.html";
 	}
-
+	@GetMapping("/")
+	public String dashboard() {
+		return "dashboard.html";
+	}
 }
