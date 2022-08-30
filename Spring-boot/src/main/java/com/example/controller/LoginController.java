@@ -8,4 +8,8 @@ public class LoginController {
 	public String homePage() {
 		return "login.html";
 	}
+	@GetMapping("/")
+	public String createPage() {
+		return "create.html";
+	}
 }
